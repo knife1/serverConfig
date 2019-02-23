@@ -17,7 +17,7 @@ module.exports = {
       host : ['101.132.46.123'],
       ref  : 'origin/master',
       repo : 'git@github.com:knife1/meituan.git',
-      path : '/node/pm2-deploy-demo',
+      path : '/node/meituan',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env servermeituan'
     },
     updateWeb : {
