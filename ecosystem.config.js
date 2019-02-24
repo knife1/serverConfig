@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
-    name: 'pm2demo', // pm2启动名字
-    script: './bin/www' // 网站启动文件路径
+    name: 'vuemeituan', // pm2启动名字
+    script: './build/dev-server' // 网站启动文件路径
   }],
   deploy : {
     serverall : {
